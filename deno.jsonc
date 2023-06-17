@@ -1,0 +1,12 @@
+{
+	"importMap": "./import_map.json",
+	"tasks": {
+		"start": "deno run --allow-read --allow-net src/main.ts",
+		"debug": "deno run --allow-read --allow-net --inspect-brk=127.0.0.1:9229 src/main.ts"
+	},
+	"fmt": {
+		"useTabs": true,
+		"indentWidth": 4,
+		"lineWidth": 120
+	}
+}
